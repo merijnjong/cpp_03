@@ -6,7 +6,7 @@
 /*   By: mjong <mjong@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/24 14:43:17 by mjong             #+#    #+#             */
-/*   Updated: 2025/07/24 14:50:14 by mjong            ###   ########.fr       */
+/*   Updated: 2025/07/24 15:12:48 by mjong            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ ClapTrap::ClapTrap(const std::string &name)
 	std::cout << "ClapTrap " << _name << " has been created." << std::endl;
 }
 
-ClapTrap::ClapTrap(const ClapTrap&clapTrap)
+ClapTrap::ClapTrap(const ClapTrap &clapTrap)
 {
 	std::cout << "Copy constructor called" << std::endl;
 	*this = clapTrap;

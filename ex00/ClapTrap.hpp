@@ -6,7 +6,7 @@
 /*   By: mjong <mjong@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/24 13:31:19 by mjong             #+#    #+#             */
-/*   Updated: 2025/07/24 13:57:09 by mjong            ###   ########.fr       */
+/*   Updated: 2025/07/24 15:14:12 by mjong            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@
 class ClapTrap
 {
 public:
-	void	attack(const std::string& target);
+	void	attack(const std::string &target);
 	void	takeDamage(unsigned int amount);
 	void	beRepaired(unsigned int amount);
 
