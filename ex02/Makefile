@@ -1,6 +1,6 @@
 NAME		:= fragtrap
-CXX			:= g++
-CXXFLAGS	:= -fsanitize=address -g -Wextra -Wall -Werror
+CXX			:= c++
+CXXFLAGS	:= -g -Wextra -Wall -Werror
 
 SRCS		:= main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
 OBJS		:= $(SRCS:.cpp=.o)
